@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
+}
+
+body {
+	background-color:#51667c;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-size:2em;
+	color:white;
+}
+
+p, li, h2 {
+	color:white;
+}
+
+a {
+	color:#eee;
+}
+
+.home {
+	text-align:center;
+	margin-top:7%;
+}
+
+.home a {
+	text-decoration:none;
+	padding:1%;
+}
+
+.menu {
+	display:block;
+	background-color:#313131;
+	padding:1% 15%;
+	color:#ddd;
+	overflow:auto;
+}
+
+.menu a {
+	padding:1em 2em;
+	margin:0 -3px;
+	border-left:2px solid black;
+	border-right:2px solid black;
+	font-size:75%;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#40d7bc;
+}
+
+.games {
+	width:34.75%;
+	text-align:center;
+	margin-left:15%;
+	padding-bottom:-1%;
+	display:inline;
+	float:left;
+}
+
+.content {
+	display:inline-block;
+	background-color:black;
+	border-width:0.1em;
+	border-radius:20%;
+	border-style:solid;
+	border-color:#4F4F4F;
+	margin:0.456%;
+	float:center;
+	text-align:center;
+	width:22%;	
+	overflow:hidden;
+}
+
+.content:hover{
+	border-color:#BF5FFF;
+}
+
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
+
+.description {
+	font-size:small;
+	width:34.75%;
+	background-color:#313131;
+	margin-right:15%;
+	height:40em;
+	border-width:0.1em;
+	border-radius:1em;
+	border-style:solid;
+	border-color:#4F4F4F;
+	display:inline;
+	float:right;
+}
+
+
+.hidden {
+	text-align:justify;
+	visibility:hidden;
+	position:absolute;
+	width:33%;
+}
+
+.reviews {
+	color:#ffffff;
+	text-align:justify;
+	background-color:#313131;
+	margin:2% 15% 2% 15%;
+	padding:1% 2% 2% 2%;
+	float:center;
+}
