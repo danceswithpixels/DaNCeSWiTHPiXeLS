@@ -2,23 +2,15 @@
 <html>
 <head>
 	<link href="../style.css" rel="stylesheet">
+	<script src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
 
-<script src="jquery-1.10.2.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<?php include_once('../nav.php'); ?>
 
-<div class="menu">
-	<div style="float:left;font-size:2em;width:61%;margin-top:1.5%">DaNCeSWiTHPiXeLS</div>
-	<div style="float:left;margin:2% 0%;">
-		<a href="../index.html">HOME</a>
-		<a href="../games.html">GAMES</a>
-		<a href="../reviews.html">REVIEWS</a>
-		<a href="../about.html">ABOUT</a>
-	</div>
-</div>
-
+<div class="container">
 <div class="reviews">	
 
 <h1 style="text-align:center">Borderlands 2 (Review)</h1>
@@ -57,6 +49,7 @@ My time spent with Gearbox's acclaimed sequel was polarizing at best. I played t
 <br><br>
 So there you have it - my two cents on Gearbox's highest rated title to date. Borderlands 2 is an undoubtedly good game, improving a lot of what was lacking in its predecessor. However, the repetitious quest system and uninteresting combat holds it back from being great. But as a studio that is willing to take risks (refer to Duke Nukem Forever and Alien: Colonial Marines) and is always involved with its community, Gearbox is a band of talented developers certainly worth supporting.
 
+</div>
 </div>
 
 </body>

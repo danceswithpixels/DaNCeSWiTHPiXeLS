@@ -2,23 +2,15 @@
 <html>
 <head>
 	<link href="../style.css" rel="stylesheet">
+	<script src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
 
-<script src="jquery-1.10.2.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<?php include_once('../nav.php'); ?>
 
-<div class="menu">
-	<div style="float:left;font-size:2em;width:61%;margin-top:1.5%">DaNCeSWiTHPiXeLS</div>
-	<div style="float:left;margin:2% 0%;">
-		<a href="../index.html">HOME</a>
-		<a href="../games.html">GAMES</a>
-		<a href="../reviews.html">REVIEWS</a>
-		<a href="../about.html">ABOUT</a>
-	</div>
-</div>
-
+<div class="container">
 <div class="reviews">	
 
 <h1 style="text-align:center">The Last of Us (Review)</h1>
@@ -57,6 +49,7 @@ The events in The Last of Us unfold 20 years after the outbreak of a fungal viru
 <br><br>
 Make no mistake, The Last of Us is a game you MUST play if ever given the chance. It will not live up to all the hype in everyone's eyes, but the experience is unlike any other. The unforgettable setting and cast had me reading up on the game's lore long after I finished it. Even as I am preoccupied by other titles, the pick-up-and-play multiplayer will always be a good enough reason to revisit the decrepit world of The Last of Us every now and then. Naughty Dog has not just defined a generation, but it has also reminded everyone that games, like all other forms of media, can tell a mature and heartfelt story that is universally heralded as a masterpiece.
 
+</div>
 </div>
 
 </body>

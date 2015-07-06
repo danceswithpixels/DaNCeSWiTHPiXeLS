@@ -2,23 +2,15 @@
 <html>
 <head>
 	<link href="../style.css" rel="stylesheet">
+	<script src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
 
-<script src="jquery-1.10.2.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<?php include_once('../nav.php'); ?>
 
-<div class="menu">
-	<div style="float:left;font-size:2em;width:61%;margin-top:1.5%">DaNCeSWiTHPiXeLS</div>
-	<div style="float:left;margin:2% 0%;">
-		<a href="../index.html">HOME</a>
-		<a href="../games.html">GAMES</a>
-		<a href="../reviews.html">REVIEWS</a>
-		<a href="../about.html">ABOUT</a>
-	</div>
-</div>
-
+<div class="container">
 <div class="reviews">	
 
 <h1 style="text-align:center">I Am Alive (Review)</h1>
@@ -39,6 +31,7 @@ Atmosphere and missed ideas aside, nothing else about I Am Alive is very memorab
 <br><br>
 Grade: 2/5
 
+</div>
 </div>
 
 </body>

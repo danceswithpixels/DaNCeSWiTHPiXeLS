@@ -2,23 +2,15 @@
 <html>
 <head>
 	<link href="style.css" rel="stylesheet">
+	<script src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
 
-<script src="jquery-1.10.2.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<?php include_once('nav.php'); ?>
 
-<div class="menu">
-	<div style="float:left;font-size:2em;width:61%;margin-top:1.5%">DaNCeSWiTHPiXeLS</div>
-	<div style="float:left;margin:2% 0%;">
-		<a href="index.php">HOME</a>
-		<a href="games.html">GAMES</a>
-		<a href="reviews.html">REVIEWS</a>
-		<a href="about.html">ABOUT</a>
-	</div>
-</div>
-
+<div class="container">
 <h1 style="text-align:center">About</h1>
 
 <div class="reviews">	
@@ -30,6 +22,7 @@ Meet Jason Zhang, a theatrical computer science geek who lives and breathes code
 Enjoy your visit!
 
 
+</div>
 </div>
 
 </body>

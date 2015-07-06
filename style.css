@@ -10,6 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
+	min-width: 980px;
 }
 
 h1 {
@@ -38,9 +39,13 @@ a {
 .menu {
 	display:block;
 	background-color:#313131;
-	padding:1% 15%;
+	padding:0% 15%;
 	color:#ddd;
 	overflow:auto;
+	position:fixed;
+	width:100%;
+	min-width:1000px;
+	top:0;
 }
 
 .menu a {
@@ -118,4 +123,10 @@ a:hover {
 	margin:2% 15% 2% 15%;
 	padding:1% 2% 2% 2%;
 	float:center;
+}
+
+.container {
+	margin:0 auto;
+	min-width:10em;
+	margin-top:6em;
 }

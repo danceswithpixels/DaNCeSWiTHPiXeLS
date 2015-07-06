@@ -2,23 +2,15 @@
 <html>
 <head>
 	<link href="../style.css" rel="stylesheet">
+	<script src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
 
-<script src="jquery-1.10.2.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<?php include_once('../nav.php'); ?>
 
-<div class="menu">
-	<div style="float:left;font-size:2em;width:61%;margin-top:1.5%">DaNCeSWiTHPiXeLS</div>
-	<div style="float:left;margin:2% 0%;">
-		<a href="../index.html">HOME</a>
-		<a href="../games.html">GAMES</a>
-		<a href="../reviews.html">REVIEWS</a>
-		<a href="../about.html">ABOUT</a>
-	</div>
-</div>
-
+<div class="container">
 <div class="reviews">	
 
 <h1 style="text-align:center">Payday 2 (Review)</h1>
@@ -57,6 +49,7 @@ Payday 2 foregoes any cohesive narrative and focuses primarily on its multiplaye
 <br><br>
 Before publishing this review, one of my biggest complaint was Payday 2's browser, which randomly generated heists and prohibited players from choosing the contracts he wanted to do. However, Overkill has since added the option to purchase contracts. The developers' receptiveness to community feedback alone should make them worthy of your support, but it also helps that Payday 2, retailing at $30, offers just as much entertainment and content as some $60, big-budget titles. With that said, it would almost be criminal to not give this game the chance it deserves.
 
+</div>
 </div>
 
 </body>
